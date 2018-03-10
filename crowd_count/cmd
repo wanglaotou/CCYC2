@@ -1,0 +1,3 @@
+PYTHONPATH='.' luigi --module task.task TrainEval --conf ./conf/ --local-scheduler --workers=4 
+#后台执行
+PYTHONPATH='.' nohup luigi --module task.task TrainEval --conf ./conf/ --local-scheduler --workers=4 > xxx.txt 2>&1 &

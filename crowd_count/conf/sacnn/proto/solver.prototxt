@@ -1,0 +1,15 @@
+net: "/home/liyuanqian/crowd_count/Experiments/v2.3.0_sacnn_xun6_test3_2/sacnn/proto/train_val.prototxt"
+display: 100
+test_iter: 64
+test_interval:200
+base_lr:  0.0002
+lr_policy: "poly"
+power: 0.5
+max_iter: 800000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+average_loss: 2000 
+snapshot_prefix: "/home/liyuanqian/crowd_count/Experiments/v2.3.0_sacnn_xun6_test3_2/sacnn/model/sacnn"
+solver_mode: GPU 
+

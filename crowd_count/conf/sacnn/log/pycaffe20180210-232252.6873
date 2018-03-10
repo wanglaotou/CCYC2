@@ -1,0 +1,4 @@
+Log file created at: 2018/02/10 23:22:52
+Running on machine: root0-PR4768GW-240
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0210 23:22:52.736785  6873 upgrade_proto.cpp:72] Note that future Caffe releases will only support input layers and not input fields.

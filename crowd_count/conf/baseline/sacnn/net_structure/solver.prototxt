@@ -1,0 +1,14 @@
+net: "net-train-val"
+display: 100
+test_iter: 64
+test_interval:200
+base_lr:  0.00005
+lr_policy: "poly"
+power: 0.5
+max_iter: 800000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 50000
+average_loss: 2000 
+snapshot_prefix: "snapshot-prefix"
+solver_mode: GPU 
